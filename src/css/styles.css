@@ -159,15 +159,28 @@ main {
   display: none;
 }
 
-.info-repositories {
+.container .profile-data .info-repositories {
   display: flex;
   gap: 10px;
 }
 
-.info-repositories p {
+.container .profile-data .info-repositories p {
   background-color: #1d4d7d;
   color: #FFFFFF;
   padding: 5px;
+}
+
+.container .profile-data .events h2 {
+  margin-bottom: 30px;
+}
+
+
+.container .profile-data .events li {
+  border: 1px solid grey;  
+  margin: 10px;
+  padding: 7px;
+  background-color: #f7f0f077;
+
 }
 
 

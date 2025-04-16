@@ -1,6 +1,5 @@
 
 const user = {
-   
    avatarUrl: "",
    name: "",
    bio: "",
@@ -21,9 +20,8 @@ const user = {
     this.repositories = repositories
    },
    setEvents(events){
-      this.events = events.filter(event => event.type === 'CreateEvent' || event.type === 'PushEvent')
-   }
-  
+    this.events = events.filter(event => event.type === "PushEvent" || event.type === "CreateEvent")
+}
 }
 
 export { user }
